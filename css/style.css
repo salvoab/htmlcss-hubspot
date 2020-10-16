@@ -39,6 +39,12 @@ body{
   margin: auto;
 }
 
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* header section */
 #site-header{
   height: 550px;
@@ -48,6 +54,7 @@ body{
 .site-nav{
   height: 50px;
   background-color: #f4f9fd;
+  border-bottom: 1px solid grey;
 }
 
 nav{
@@ -69,7 +76,7 @@ nav a{
   padding: 0;
 }
 
-.menu-left .down-icon{
+.site-nav .menu-left .down-icon{
   border-right: 1px solid grey;
   padding: 0 10px 0 0;
 }
@@ -78,33 +85,49 @@ nav a{
   text-align: right;
 }
 
-.menu-right i{
+.site-nav .menu-right i{
   color: #0ba7c0;
+}
+
+.header-nav{
+  background-color: white;
+}
+
+.logo{
+  width: 50%;
+  margin-top: 10px;
 }
 /* End header section */
 
+/* col */
+.col-15{
+  width: 15%;
+  float: left;
+}
 .col-25{
     height: 200px; /* Da eliminare*/
   width: 25%;
   float: left;
 }
-
-.col-75{
-    height: 200px; /* Da eliminare*/
-  width: 75%;
-  float: left;
-}
-
 .col-30{
     height: 200px; /* Da eliminare*/
   width: 30%;
   float: left;
 }
-
 .col-50{
   width: 50%;
   float: left;
 }
+.col-75{
+  height: 200px; /* Da eliminare*/
+  width: 75%;
+  float: left;
+}
+.col-85{
+  width: 85%;
+  float: left;
+}
+/* End col */
 
 #services .row .col-30:nth-child(2){
   margin: 0 5%;
