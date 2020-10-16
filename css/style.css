@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+body{
+  min-width: 1000px;
+  overflow-x: scroll;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
 #site-header{
   height: 550px;
   background: red;
@@ -27,6 +37,12 @@
   float: left;
 }
 
+.col-50{
+    height: 200px; /* Da eliminare*/
+  width: 50%;
+  float: left;
+}
+
 #services .row .col-30:nth-child(2){
   margin: 0 5%;
 }
@@ -37,8 +53,21 @@
   clear: both;
 }
 
-#services *{ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi*/
-  padding: 20px;
+#main-section{
+  background: blue;
+}
+
+#services *:not(h1){ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi*/
   border: 4px solid black;
   background: green;
+}
+
+#community *:not(h1){ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi*/
+  border: 4px solid black;
+  background:#00aeb3;
+}
+
+#testimonials *:not(h1){ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi*/
+  border: 4px solid black;
+  background:#808080;
 }
