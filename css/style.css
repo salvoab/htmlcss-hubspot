@@ -57,6 +57,10 @@ body{
   background: blue;
 }
 
+#site-footer{
+  background: purple;
+}
+
 #services *:not(h1){ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi*/
   border: 4px solid black;
   background: green;
@@ -70,4 +74,9 @@ body{
 #testimonials *:not(h1){ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi*/
   border: 4px solid black;
   background:#808080;
+}
+
+#site-footer *{ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi*/
+  border: 4px solid black;
+  background: pink;
 }
