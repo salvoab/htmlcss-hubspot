@@ -4,6 +4,31 @@
   box-sizing: border-box;
 }
 
+/* Utility */
+.btn-orange{
+  text-decoration: none;
+  color: white;
+  background-color: #fe775a;
+  border-radius: 8px;
+}
+
+.btn-empty{
+  text-decoration: none;
+  color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 8px;
+  margin: 0 15px;
+}
+
+.pad-8{
+  padding: 8px;
+}
+
+.pad-20{
+  padding: 20px;
+}
+/*End Utility*/
+
 body{
   min-width: 1000px;
   overflow-x: scroll;
@@ -14,10 +39,49 @@ body{
   margin: auto;
 }
 
+/* header section */
 #site-header{
   height: 550px;
   background: red;
 }
+
+.site-nav{
+  height: 50px;
+  background-color: #f4f9fd;
+}
+
+nav{
+  font-size: 12px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #516374;
+  padding: 0 10px;
+}
+
+.menu-left, .menu-right{
+  height: 50px;
+  line-height: 50px;
+}
+
+#lang{
+  padding: 0;
+}
+
+.menu-left .down-icon{
+  border-right: 1px solid grey;
+  padding: 0 10px 0 0;
+}
+
+.menu-right{
+  text-align: right;
+}
+
+.menu-right i{
+  color: #0ba7c0;
+}
+/* End header section */
 
 .col-25{
     height: 200px; /* Da eliminare*/
@@ -38,7 +102,6 @@ body{
 }
 
 .col-50{
-    height: 200px; /* Da eliminare*/
   width: 50%;
   float: left;
 }
