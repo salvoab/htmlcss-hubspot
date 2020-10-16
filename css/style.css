@@ -47,8 +47,7 @@ body{
 
 /* header section */
 #site-header{
-  height: 550px;
-  background: red;
+  height: 760px;
 }
 
 .site-nav{
@@ -96,6 +95,19 @@ nav a{
 .logo{
   width: 50%;
   margin-top: 10px;
+}
+
+.banner{
+  height: 610px;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+}
+
+.empty{
+  height: 50px;
+  background-color: #afebe4;
+  border-top: 2px solid #33475b;
+  border-bottom: 2px solid #33475b;
 }
 /* End header section */
 
