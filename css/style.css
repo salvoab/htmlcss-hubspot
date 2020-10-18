@@ -39,6 +39,14 @@
 .mt-20{
   margin-top: 20px;
 }
+
+.bg-white{
+  background-color: white;
+}
+
+.inblock{
+  display: inline-block;
+}
 /*End Utility*/
 
 body{
@@ -204,6 +212,14 @@ nav a{
 .card-row{
   width: 100%;
   text-align: center;
+}
+
+.card-col-25{
+  text-align: center;
+}
+
+.card-col-25 img{
+  width: 50%;
 }
 
 #site-footer{
