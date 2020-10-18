@@ -30,7 +30,7 @@
 /*End Utility*/
 
 body{
-  min-width: 1000px;
+  min-width: 1400px;
   overflow-x: scroll;
 }
 
@@ -90,6 +90,7 @@ nav a{
 }
 
 .header-nav{
+  height: 50px;
   background-color: white;
 }
 
@@ -99,9 +100,12 @@ nav a{
 }
 
 .banner{
-  height: 610px;
+  width: 100%;
+  height: 646px;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: right;
 }
 
 .banner-text{
@@ -178,6 +182,7 @@ nav a{
 
 #main-section{
   background: blue;
+  margin-top: 36px;/* Necessario perché altrimenti il main va sopra il div.empty e non capisco perché*/
 }
 
 #site-footer{
