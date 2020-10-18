@@ -47,7 +47,7 @@ body{
 
 /* header section */
 #site-header{
-  height: 760px;
+  height: 796px;
   color: #33475b;
 }
 
@@ -182,7 +182,6 @@ nav a{
 
 #main-section{
   background: blue;
-  margin-top: 36px;/* Necessario perché altrimenti il main va sopra il div.empty e non capisco perché*/
 }
 
 #site-footer{
@@ -208,6 +207,3 @@ nav a{
   border: 4px solid black;
   background: pink;
 }
-
-/* prova di commit con il nuovo pc per vedere se funziona tutto
-   a dovere */
