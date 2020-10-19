@@ -276,6 +276,18 @@ nav a{
 
 /* End services section */
 
+/* Community section*/
+#community{
+  color: white;
+  background-color: #00abb7; /* Si mette per browsers che non supportano linear-gradient*/
+  background-image: linear-gradient(to right, #00abb7 , #00bba7);
+}
+/* End Community section*/
+
+#testimonials{
+  background-color: white;
+}
+
 #site-footer{
   background: purple;
 }
