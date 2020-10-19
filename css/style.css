@@ -322,6 +322,13 @@ img.testimonial-logo{
   width: 20%;
   padding-right: 10px;
 }
+
+#testimonials .card-col-50 img{
+  height: 350px;
+  position: relative;
+  left: 300px;
+  bottom: 45px;
+}
 /* End testimonials section */
 
 #site-footer{
