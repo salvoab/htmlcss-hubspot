@@ -381,6 +381,8 @@ img.testimonial-logo{
 
 .languages{
   text-align:center;
+  border-bottom: 2px solid #cbd6e2;
+  padding-bottom: 20px;
 }
 /* End site footer*/
 
