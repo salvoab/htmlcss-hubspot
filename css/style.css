@@ -20,6 +20,16 @@
   margin: 0 15px;
 }
 
+.btn-grey{
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #32495b;
+  background-color: #dadee0;
+  display: inline-block;
+}
+
 .pad-12{
   padding: 12px;
 }
@@ -331,26 +341,50 @@ img.testimonial-logo{
 }
 /* End testimonials section */
 
+/* site footer */
 #site-footer{
-  background: purple;
+  color: white;
+  background: #32495b;
 }
 
-/* #services *:not(h1){ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi
-  border: 4px solid black;
-  background: green;
-} */
+.foot-menu-title{
+  margin-bottom: 25px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
 
-/* #community *:not(h1){ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi
-  border: 4px solid black;
-  background:#00aeb3;
-} */
+.foot-menu ul li{
+  list-style: none;
+  padding: 10px 0;
+}
 
-/* #testimonials *:not(h1){ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi
-  border: 4px solid black;
-  background:#808080;
-} */
+#site-footer .foot-menu-list li a, #site-footer .languages ul li a{
+  text-decoration: none;
+  color: #cbd6e2;
+}
 
-#site-footer *{ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi*/
+#site-footer .foot-menu-list li a:hover, #site-footer .languages ul li a:hover{
+  text-decoration: underline;
+}
+
+#site-footer .social-list li, #site-footer .languages ul li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+#site-footer .social-list li a{
+  text-decoration: none;
+  color: #cbd6e2;
+  font-size: 1.1em;
+}
+
+.languages{
+  text-align:center;
+}
+/* End site footer*/
+
+/* #site-footer *{ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi
   border: 4px solid black;
   background: pink;
-}
+} */
