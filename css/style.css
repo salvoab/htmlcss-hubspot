@@ -20,8 +20,8 @@
   margin: 0 15px;
 }
 
-.pad-8{
-  padding: 8px;
+.pad-12{
+  padding: 12px;
 }
 
 .pad-20{
@@ -36,8 +36,16 @@
   margin-bottom: 20px;
 }
 
+.mb-40{
+  margin-bottom: 40px;
+}
+
 .mt-20{
   margin-top: 20px;
+}
+
+.mt-40{
+  margin-top: 40px;
 }
 
 .bg-white{
@@ -170,7 +178,6 @@ nav a{
   float: left;
 }
 .col-30{
-    height: 200px; /* Da eliminare*/
   width: 30%;
   float: left;
 }
@@ -234,12 +241,15 @@ nav a{
   width: 80%;
 }
 
+.line{
+  border-top: 2px solid #33475b;
+  border-bottom: none;
+}
+
 #nonsense-line{
   width: 460px;
-  display: inline-block;
-  border-top: 2px solid #33475b;
   margin-left: 60px;
-  border-bottom: none;
+  display: inline-block;
 }
 
 .card-col-75 ul > li{
@@ -251,6 +261,19 @@ nav a{
   padding-right: 8px;
   color: #fe775a;
 }
+
+.card-col-30{
+  text-align: center;
+}
+
+.card-col-30 img{
+  height: 120px;
+}
+
+.card-col-30 ul li{
+  text-align: left;
+}
+
 /* End services section */
 
 #site-footer{
