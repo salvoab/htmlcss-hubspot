@@ -65,6 +65,14 @@
 .p-small{
   font-size: 0.9em;
 }
+
+.border-right{
+  border-right: 1px solid white;
+}
+
+.border-bottom{
+  border-bottom: 1px solid white;
+}
 /*End Utility*/
 
 body{
@@ -286,6 +294,14 @@ h2{
 
 .card-community{
   padding: 40px 60px;
+}
+
+#community img{
+  height: 40px;
+}
+
+.number{
+  padding: 20px 0;
 }
 /* End Community section*/
 
