@@ -28,6 +28,10 @@
   padding: 20px;
 }
 
+.pad-40{
+  padding: 40px;
+}
+
 .pad-top-bottom-40{
   padding: 40px 0;
 }
@@ -305,9 +309,20 @@ h2{
 }
 /* End Community section*/
 
+/* testimonials section */
 #testimonials{
   background-color: white;
 }
+
+#testimonials .card-col-75{
+  margin-left: 240px;
+}
+
+img.testimonial-logo{
+  width: 20%;
+  padding-right: 10px;
+}
+/* End testimonials section */
 
 #site-footer{
   background: purple;
@@ -323,10 +338,10 @@ h2{
   background:#00aeb3;
 } */
 
-#testimonials *:not(h1){ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi*/
+/* #testimonials *:not(h1){ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi
   border: 4px solid black;
   background:#808080;
-}
+} */
 
 #site-footer *{ /* Da eliminare: solo per avere un'idea di dove verranno i blocchi*/
   border: 4px solid black;
