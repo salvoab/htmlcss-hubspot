@@ -368,12 +368,12 @@ img.testimonial-logo{
   padding: 10px 0;
 }
 
-#site-footer .foot-menu-list li a, #site-footer .languages ul li a, .foot-bottom-right a{
+#site-footer a:not(.btn-grey){
   text-decoration: none;
   color: #cbd6e2;
 }
 
-#site-footer .foot-menu-list li a:hover, #site-footer .languages ul li a:hover, .foot-bottom-right a:hover{
+#site-footer a:hover:not(.btn-grey){
   text-decoration: underline;
 }
 
