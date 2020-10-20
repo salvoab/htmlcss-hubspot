@@ -107,8 +107,8 @@ body{
 
 /* header section */
 #site-header{
-  height: 796px;
   color: #33475b;
+  background-color: #fef6ef;
 }
 
 .site-nav{
@@ -164,8 +164,9 @@ nav a{
   height: 646px;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: right;
+  background-size: contain;
+  background-position: top right;
+  position: relative;
 }
 
 .banner-text{
@@ -182,11 +183,16 @@ nav a{
   display: inline-block;
 }
 
-.empty{
-  height: 50px;
+.banner > .container::after{
+  content: "";
+  width: 100%;
+  height: 77px;
   background-color: #afebe4;
   border-top: 2px solid #33475b;
   border-bottom: 2px solid #33475b;
+  position: absolute;
+  top: 88%;
+  left: 0;
 }
 /* End header section */
 
